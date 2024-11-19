@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import "./Styles/Global.css";
+import React from "react";
+import resumeData from "./resumeData";
+import Header from "./components/Header";
+import Experience from "./components/Experience";
+import Education from "./components/Education";
+import Skill from "./components/Skill";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header header={resumeData.headers} />
+      <Experience experience={resumeData.experiences} />
+      <Education education={resumeData.educations} />
+      <Skill skill={resumeData.skills} />
+      <p>Language : {resumeData.language.join(", ")} </p>
     </div>
   );
 }
