@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import Experience from "./components/Experience";
 import Education from "./components/Education";
 import Skill from "./components/Skill";
+import Language from "./components/Language";
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
       <Experience experience={resumeData.experiences} />
       <Education education={resumeData.educations} />
       <Skill skill={resumeData.skills} />
-      <p>Language : {resumeData.language.join(", ")} </p>
+      <Language language={resumeData.language.join(", ")} />
     </div>
   );
 }

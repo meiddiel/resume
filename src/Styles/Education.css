@@ -1,0 +1,17 @@
+.edu-item {
+  display: flex;
+  align-items: center;
+}
+
+.edu-right {
+  margin: 0 2.5rem;
+}
+
+.edu-item h4 {
+  font-size: 1.3rem;
+  margin: 0;
+}
+
+.edu-item .institu{
+  font-style: italic;
+}

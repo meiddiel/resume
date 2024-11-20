@@ -23,7 +23,14 @@ const resumeData = {
     {
       degree: "Diplome de Technicien Superieur",
       institution: "Institution Supérieur de Technologie",
-      period: "2014-2018",
+      period: "2014 - 2018",
+      city: "Antananarivo",
+    },
+    {
+      degree: "Developer Certificat",
+      institution: "IT institut",
+      period: "2011 - 2013",
+      city: "Antananarivo",
     },
   ],
   skills: [

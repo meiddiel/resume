@@ -1,18 +1,30 @@
 import React from "react";
 import "../Styles/Header.css";
 import profilPhoto from "../assets/profil-photo.jpg";
+import { FaEnvelope, FaPhone } from "react-icons/fa";
 
 const Header = ({ header }) => {
   const { name, title, contact } = header;
 
   return (
     <header className="header">
-      <img src={profilPhoto} alt="Meiddiel" className="profile-photo" />
-      <h1>{name}</h1>
-      <h2>{title}</h2>
-      <p>
-        Email: {contact.email} <br /> Phone: {contact.phone}
-      </p>
+      <div className="header-left">
+        <h1 className="name">{name}</h1>
+        <h2 className="title">{title}</h2>
+        <ul className="contact-info">
+          <li>
+            <FaEnvelope />
+            <span> {contact.email}</span>
+          </li>
+          <li>
+            <FaPhone />
+            <span> {contact.phone}</span>
+          </li>
+        </ul>
+      </div>
+      <div className="header-right">
+        <img src={profilPhoto} alt="Meiddiel" className="profile-photo" />
+      </div>
     </header>
   );
 };

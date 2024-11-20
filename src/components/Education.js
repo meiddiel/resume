@@ -1,4 +1,5 @@
 import React from "react";
+import "../Styles/Education.css";
 
 function Education({ education }) {
   const { degree, institution, period } = education;
@@ -6,16 +7,27 @@ function Education({ education }) {
   return (
     <section>
       <h3>Education</h3>
-      <lu>
+      <div className="education">
         {education.map((school, index) => (
-          <li key={index}>
-            <h4>
-              {school.degree} at {school.institution}
-            </h4>
-            <p> {school.period} </p>
-          </li>
+          <div key={index} className="edu-item">
+            <div className="edu-left">
+              <ul>
+                <li>{school.period}</li>
+                <li>{school.city}</li>
+              </ul>
+            </div>
+            <div className="edu-right">
+              <lu>
+                <li>
+                  <h4>{school.degree}</h4>
+                </li>
+                <li className="institu">{school.institution}</li>
+              </lu>
+            </div>
+          </div>
         ))}
-      </lu>
+        ,
+      </div>
     </section>
   );
 }
