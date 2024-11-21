@@ -9,14 +9,17 @@ const resumeData = {
   },
   experiences: [
     {
-      position: "Graphic Designer",
       company: "JADEVA Solution informatique",
-      period: "2024 - 2019",
-    },
-    {
-      position: "Graphic Designer",
-      company: "TANDEM",
-      period: "2018 - 2019",
+      location: "Antanarivo",
+      date: "2024 - 2019",
+      jobTitle: "Graphic Designer",
+      responsibilities: [
+        "Develop creative concepts and ideas based on project briefs.",
+        "Use design tools (like Adobe Creative Suite, Figma, Sketch, or others) to create visual assets.",
+        "Design logos, websites, mobile apps, packaging, advertisements, or other deliverables based on the project.",
+        "Revise designs based on client feedback, user testing, or performance metrics.",
+        "Present design ideas and concepts to clients or stakeholders.",
+      ],
     },
   ],
   educations: [
