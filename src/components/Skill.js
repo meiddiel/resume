@@ -1,4 +1,5 @@
 import React from "react";
+import "../Styles/Skill.css";
 
 function Skill({ skill }) {
   const { category, name, tool } = skill;
