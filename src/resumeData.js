@@ -10,7 +10,7 @@ const resumeData = {
   experiences: [
     {
       company: "JADEVA Solution informatique",
-      location: "Antanarivo",
+      location: "Antananarivo",
       date: "2024 - 2019",
       jobTitle: "Graphic Designer",
       responsibilities: [
