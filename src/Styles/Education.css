@@ -20,7 +20,15 @@
 @media (max-width: 768px) {
   .edu-item  {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     gap: 10px;
+  }
+
+  .location {
+    margin: 0;
+  }
+
+  .degree {
+    margin: 0;
   }
 }

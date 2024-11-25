@@ -20,7 +20,6 @@ function Education({ education }) {
             </div>
           </div>
         ))}
-        ,
       </div>
     </section>
   );

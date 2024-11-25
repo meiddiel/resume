@@ -27,6 +27,7 @@ section {
   color: var(--secondary-color);
   font-size: 1.8rem;
   text-transform: uppercase;
+  border-bottom: 2px solid #ddd;
   margin-bottom: 20px;
 }
 
@@ -39,6 +40,7 @@ section {
   }
 
   .section-title {
+    text-align: center;
     font-size: 2rem;
   }
 }

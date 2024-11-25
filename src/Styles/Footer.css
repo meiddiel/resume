@@ -1,12 +1,11 @@
 footer {
   text-align: center;
   padding: 20px;
-  border-top: 1px solid #ddd;
   margin-top: 20px;
 }
 
-footer p {
-  margin: 0;
+.copyright {
+  margin: 20px 0;
   font-size: 1rem;
 }
 
@@ -22,5 +21,6 @@ footer p {
 }
 
 .download-button:hover {
-  background-color: #03002e;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
 }

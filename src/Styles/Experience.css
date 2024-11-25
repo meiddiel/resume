@@ -83,12 +83,12 @@ li {
 @media (max-width: 768px) {
   .timeline-item {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     gap: 10px;
   }
 
   .timeline-left {
-    text-align: left;
+    text-align: center;
     flex: 1;
   }
 

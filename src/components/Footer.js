@@ -16,7 +16,7 @@ const Footer = ({ printRef }) => {
       <button className="download-button" onClick={handlePrint}>
         Download as PDF
       </button>
-      <p>Copyright © {currentYear}</p>
+      <p className="copyright">Copyright © {currentYear}</p>
     </footer>
   );
 };
