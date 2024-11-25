@@ -4,7 +4,7 @@ This repository contains the code for my personal resume, which I’ve deployed 
 
 ## How to View
 
-You can view my resume at: [https://username.github.io/resume/](https://username.github.io/resume/)
+You can view my resume at: [https://meiddiel.github.io/resume/](https://meiddiel.github.io/resume/)
 
 ## Technologies Used
 
@@ -14,4 +14,4 @@ You can view my resume at: [https://username.github.io/resume/](https://username
 
 ## Contact
 
-Feel free to reach out via [LinkedIn](https://linkedin.com/in/username) or [email](mailto:email@example.com).
+Feel free to reach out via [email](tokymickaelrivo@gmail.com).
