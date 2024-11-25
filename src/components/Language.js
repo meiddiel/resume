@@ -3,7 +3,7 @@ import React from "react";
 function Language({ language }) {
   return (
     <section>
-      <h3>Language</h3>
+      <h3 className="section-title">Languages</h3>
       <div>
         <p>{language}</p>
       </div>

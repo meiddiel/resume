@@ -1,77 +1,115 @@
-.experience {
-  padding: 20px 40px;
-}
-
-.experience h3{
-  text-transform: uppercase;
-  font-size: 1.5rem;
-  font-weight: bold;
-  margin-bottom: 20px;
-  color: #03002e;
-}
-
 .timeline {
+  display: flex;
+  flex-direction: column;
   position: relative;
-  padding-left: 30px;
-  border-left: 2px solid #e0e0e0;
+  margin: 20px 0;
+  gap: 30px;
 }
 
 .timeline-item {
   display: flex;
-  margin-bottom: 20px;
+  align-items: flex-start;
+  gap: 20px;
   position: relative;
+  margin-bottom: 30px;
+}
+
+.timeline-left {
+  flex: 1;
+  text-align: left;
+  font-size: 1rem;
+  color: var(--primary-color);
 }
 
 .timeline-dot {
-  position: absolute;
-  left: -7px;
-  top: O;
   width: 10px;
   height: 10px;
-  background-color: #03002e;
+  background-color: var(--secondary-color);
   border-radius: 50%;
-  border: 2px solid #ffffff;
+  position: relative;
+  margin-top: 8px;
 }
 
-.timeline-content {
-  margin-left: 20px;
-  flex: 1;
+.timeline-dot::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  width: 2px;
+  height: calc(100% + 50px);
+  background-color: var(--secondary-color);
+  transform: translate(-50%);
+  margin-top: 25%;
 }
 
-.experience-details {
-  font-size: 0.9rem;
-  margin-bottom: 10px;
-  color: #010057;
+.date {
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.location {
+  font-style: italic;
+  margin-top: 7px;
+}
+
+.timeline-rigth {
+  flex: 2;
+  padding-left: 20px;
 }
 
 .company {
   font-weight: bold;
-  color: #03002e;
-}
-
-.location, .date {
-  font-style: italic;
-  color: #666666;
-}
-
-.role-details {
-  margin-top: 5px;
+  font-size: 1rem;
+  margin-bottom: 0;
+  color: var(--primary-color);
 }
 
 .job-title {
-  font-size: 1rem;
-  font-weight: bold;
-  color: #03002e;
+  font-size: 1.2rem;
+  color: var(--secondary-color);
+  margin: 5px 0;
 }
 
-ul{
-  margin: 10px 0 0 15px;
-  padding: 0;
-  list-style-type: disc;
-  color: #090088;
+ul {
+  margin-top: 10px;
+  padding-right: 20px;
 }
 
-ul li {
+li {
   margin-bottom: 5px;
-  font-size: 0.9rem;
+  color: var(--primary-color);
+}
+
+@media (max-width: 768px) {
+  .timeline-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .timeline-left {
+    text-align: left;
+    flex: 1;
+  }
+
+  .timeline-left {
+    margin-bottom: 0;
+  }
+
+  .timeline-dot {
+    display: none;
+  }
+
+  .timeline-rigth {
+    padding-left: 0;
+  }
+
+  .timeline-rigth p {
+    margin-top: 0;
+  }
+
+  ul {
+    list-style: none;
+  }
+  
 }

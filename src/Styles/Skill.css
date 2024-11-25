@@ -1,0 +1,8 @@
+.category {
+  font-size: 1.2rem;
+  margin: 5px 0;
+}
+
+.skill-name{
+  color: var(--secondary-color);
+}
