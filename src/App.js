@@ -1,20 +1,28 @@
 import "./Styles/Global.css";
-import React from "react";
+import React, { useRef } from "react";
 import resumeData from "./resumeData";
 import Header from "./components/Header";
 import Experience from "./components/Experience";
 import Education from "./components/Education";
 import Skill from "./components/Skill";
 import Language from "./components/Language";
+import Footer from "./components/Footer";
 
 function App() {
+  const printRef = useRef(); // Use ref for the content to print
+
   return (
     <div className="App">
-      <Header header={resumeData.headers} />
-      <Experience experience={resumeData.experiences} />
-      <Education education={resumeData.educations} />
-      <Skill skill={resumeData.skills} />
-      <Language language={resumeData.language.join(", ")} />
+      {/* Content to be printed */}
+      <div ref={printRef}>
+        <Header header={resumeData.headers} />
+        <Experience experience={resumeData.experiences} />
+        <Education education={resumeData.educations} />
+        <Skill skill={resumeData.skills} />
+        <Language language={resumeData.language.join(", ")} />
+      </div>
+      {/* Pass printRef to Footer */}
+      <Footer printRef={printRef} />
     </div>
   );
 }
