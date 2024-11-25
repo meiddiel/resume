@@ -38,7 +38,7 @@ const resumeData = {
   ],
   skills: [
     {
-      category: "Audio-Visuel",
+      category: "Audio-Visual",
       skills: [
         {
           name: "Image Creation and Editing",
