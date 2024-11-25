@@ -33,6 +33,10 @@
   color: var(--primary-color);
 }
 
+.icon {
+  color: var(--secondary-color);
+}
+
 .contact-info span {
   margin-left: 10px;
 }

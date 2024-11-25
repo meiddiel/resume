@@ -13,11 +13,11 @@ const Header = ({ header }) => {
         <h2 className="title">{title}</h2>
         <ul className="contact-info">
           <li>
-            <FaEnvelope />
+            <FaEnvelope className="icon" />
             <span> {contact.email}</span>
           </li>
           <li>
-            <FaPhone />
+            <FaPhone className="icon" />
             <span> {contact.phone}</span>
           </li>
         </ul>
