@@ -5,24 +5,18 @@ function Education({ education }) {
   const { degree, institution, period } = education;
 
   return (
-    <section>
-      <h3>Education</h3>
-      <div className="education">
+    <section className="education">
+      <h3 className="section-title">Educations</h3>
+      <div>
         {education.map((school, index) => (
           <div key={index} className="edu-item">
             <div className="edu-left">
-              <ul>
-                <li>{school.period}</li>
-                <li>{school.city}</li>
-              </ul>
+              <p className="date">{school.period}</p>
+              <p className="location">{school.city}</p>
             </div>
             <div className="edu-right">
-              <lu>
-                <li>
-                  <h4>{school.degree}</h4>
-                </li>
-                <li className="institu">{school.institution}</li>
-              </lu>
+              <h4 className="degree">{school.degree}</h4>
+              <p className="institu">{school.institution}</p>
             </div>
           </div>
         ))}

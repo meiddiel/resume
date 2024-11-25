@@ -1,76 +1,8 @@
-/* Skills.css */
-.skills-section {
-  padding: 20px 0;
-  border-top: 2px solid #010057; /* Same as Experience section */
+.category {
+  font-size: 1.2rem;
+  margin: 5px 0;
 }
 
-.skills-section h3 {
-  font-size: 24px;
-  color: #03002e;
-  margin-bottom: 30px;
-  text-align: left; /* Keep consistent with experience */
-  text-transform: uppercase;
-  border-bottom: 1px solid #090088;
-  padding-bottom: 5px;
-}
-
-.skills-timeline {
-  position: relative;
-  padding-left: 30px; /* Space for timeline dots */
-}
-
-.skills-timeline::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 10px;
-  width: 2px;
-  height: 100%;
-  background-color: #090088; /* Timeline color */
-}
-
-.skills-category {
-  position: relative;
-  margin-bottom: 20px;
-  padding-left: 20px;
-}
-
-.skills-category::before {
-  content: "";
-  position: absolute;
-  top: 5px; /* Matches vertical alignment of text */
-  left: 0;
-  width: 10px;
-  height: 10px;
-  background-color: #03002e; /* Node dot color */
-  border-radius: 50%;
-}
-
-.skills-category h4 {
-  font-size: 18px;
-  color: #03002e;
-  font-weight: bold;
-  margin-bottom: 5px;
-}
-
-.skills-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.skills-list li {
-  font-size: 16px;
-  color: #333; /* Neutral text color */
-  margin-bottom: 5px;
-}
-
-.skills-list li strong {
-  font-weight: bold;
-  color: #010057;
-}
-
-.skills-list li span {
-  font-style: italic;
-  color: #555; /* Muted tools color */
+.skill-name{
+  color: var(--secondary-color);
 }

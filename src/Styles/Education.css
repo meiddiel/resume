@@ -1,17 +1,26 @@
 .edu-item {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
+  gap: 20px;
+  position: relative;
+  margin-bottom: 10px;
 }
 
-.edu-right {
-  margin: 0 2.5rem;
+.degree {
+  font-weight: bold;
+  font-size: 1rem;
+  margin: 16px 0 0 0;
+  color: var(--primary-color);
 }
 
-.edu-item h4 {
-  font-size: 1.3rem;
-  margin: 0;
+.institu {
+  margin: 7px 0px 16px 0;
 }
 
-.edu-item .institu{
-  font-style: italic;
+@media (max-width: 768px) {
+  .edu-item  {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
 }
