@@ -3,6 +3,8 @@ const resumeData = {
     name: "RARIVOARISOA Toky Mickaël",
     title: "Graphic Designer and Web Developer",
     contact: {
+      adress: "Lot IVA 32 Ambatomanoina",
+      city: "Andoharanofotsy, Madagasikara",
       email: "tokymickaelrivo@gmail.com",
       phone: "+261 34 61 982 03",
     },
@@ -19,6 +21,19 @@ const resumeData = {
         "Design logos, websites, mobile apps, packaging, advertisements, or other deliverables based on the project.",
         "Revise designs based on client feedback, user testing, or performance metrics.",
         "Present design ideas and concepts to clients or stakeholders.",
+      ],
+    },
+    {
+      company: "TANDEM",
+      location: "Imerimanjaka",
+      date: "2017 - 2018",
+      jobTitle: "Graphic Designer",
+      responsibilities: [
+        "Photo editing and retouching",
+        "Creation of high-quality visuals for print and digital format",
+        "Familiarity with magazin layout and publication standards",
+        "Significant contribution to high-profile projects like the Annuaire Mariage Viavy tsara",
+        "Experience with preparing files for print, including color correction and file formatting",
       ],
     },
   ],

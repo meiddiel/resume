@@ -26,6 +26,8 @@
 }
 
 .contact-info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   list-style: none;
   padding: 0;
   margin: 0;
@@ -69,6 +71,10 @@
 
   .title {
     font-size: 1.2rem;
+  }
+
+  .contact-info {
+    grid-template-columns: 1fr;
   }
 
   .profile-photo {

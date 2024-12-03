@@ -1,7 +1,8 @@
 import React from "react";
 import "../Styles/Header.css";
 import profilPhoto from "../assets/profil-photo.jpg";
-import { FaEnvelope, FaPhone } from "react-icons/fa";
+import { FaEnvelope, FaHome, FaPhone } from "react-icons/fa";
+import { FaLocationPin } from "react-icons/fa6";
 
 const Header = ({ header }) => {
   const { name, title, contact } = header;
@@ -17,8 +18,16 @@ const Header = ({ header }) => {
             <span> {contact.email}</span>
           </li>
           <li>
+            <FaHome className="icon" />
+            <span> {contact.adress} </span>
+          </li>
+          <li>
             <FaPhone className="icon" />
             <span> {contact.phone}</span>
+          </li>
+          <li>
+            <FaLocationPin className="icon" />
+            <span> {contact.city} </span>
           </li>
         </ul>
       </div>
