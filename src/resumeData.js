@@ -11,6 +11,21 @@ const resumeData = {
   },
   experiences: [
     {
+      company: "JADEVA Sarlu",
+      location: "Antananarivo",
+      date: "2024",
+      jobTitle: "Community Manager",
+      responsibilities: [
+        "Create and publishe articles for 4 websites: Numerimo, Voyageimo, Detoximo, and Startimo.",
+        "Manage and moderate Facebook messages and comments for 'Ewa Print'.",
+        "Developed and published promotional content for Ewa Print’s products.",
+        "Optimized SEO for the aforementioned websites to improve visibility.",
+        "Produce engaging TikTok videos to boost the company’s social media presence.",
+
+      ],
+    },
+
+    {
       company: "JADEVA Solution informatique",
       location: "Antananarivo",
       date: "2024 - 2019",
@@ -77,6 +92,15 @@ const resumeData = {
         { name: "Backend Development", tools: ["Node.js", "Express"] },
         { name: "Data Management", tools: ["MongoDB", "ProtgreSQL"] },
         { name: "Version Control", tools: ["Git", "GitHub"] },
+      ],
+    },
+    {
+      category: "Community Management",
+      skills: [
+        {name:"Content creation and publication"},
+        {name:"Social media management"},
+        {name:"SEO optimization"},
+        {name:"Video production for TikTok"},
       ],
     },
   ],
