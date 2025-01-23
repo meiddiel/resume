@@ -2,8 +2,6 @@ import React from "react";
 import "../Styles/Skill.css";
 
 function Skill({ skill }) {
-  const { category, name, tool } = skill;
-
   return (
     <section className="skill">
       <h3 className="section-title">Skills</h3>
@@ -13,8 +11,8 @@ function Skill({ skill }) {
           <ul>
             {category.skills.map((skill, i) => (
               <li key={i}>
-                <strong className="skill-name">{skill.name}</strong>:{" "}
-                {skill.tools.join(", ")}
+                <strong className="skill-name">{skill.name}</strong>
+                {skill.tools ? `: ${skill.tools.join(", ")}` : ""}
               </li>
             ))}
           </ul>
