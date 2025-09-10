@@ -6,6 +6,7 @@ import Experience from "./components/Experience";
 import Education from "./components/Education";
 import Skill from "./components/Skill";
 import Language from "./components/Language";
+import DriverLicence from "./components/DriverLicence";
 import Footer from "./components/Footer";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Experience experience={resumeData.experiences} />
         <Education education={resumeData.educations} />
         <Skill skill={resumeData.skills} />
+        <DriverLicence licence={resumeData.driverLicence.join(", ")} />
         <Language language={resumeData.language.join(", ")} />
       </div>
       {/* Pass printRef to Footer */}

@@ -154,6 +154,7 @@ const resumeData = {
     },
   ],
   language: ["Malagasy", "French", "English"],
+  driverLicence: ["A (Motorcycle)", "B (Car)", "C (Truck)", "D (Bus)", "E (Trailer)"],
 };
 
 export default resumeData;
