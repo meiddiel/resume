@@ -11,6 +11,55 @@ const resumeData = {
   },
   experiences: [
     {
+      company: "STGH - Société de Travaux Généraux et Hydraulique",
+      location: "Antananarivo",
+      date: "2025 - Present",
+      jobTitle: "Head of Digital Communication & Web Developer",
+      responsibilities: [
+        "Manage and animate the company's social media platforms (Facebook and LinkedIn).",
+        "Moderate messages and engage with the online community to increase brand awareness and engagement.",
+        "Design and manage visual communication materials for various channels (digital and print).",
+        "Improve presentations of the company's offerings for potential clients.",
+        "Develop and maintain the company's website, ensuring its performance and security."
+      ],
+    },
+
+  {
+    company: "Urban futsal",
+    location: "Antananarivo",
+    date: "2025 - present",
+    jobTitle: "Community Manager",
+    responsibilities: [
+      "Strategized and executed weekly content publications on Facebook and Instagram to engage the sports community.",
+      "Cultivated a dynamic online presence by actively interacting with followers and promoting club events.",
+      "Developed and managed all visual assets, including graphics and promotional materials, to boost brand visibility."
+    ]
+  },
+  {
+    company: "Ofive Restaurant",
+    location: "Antananarivo",
+    date: "2025 - present",
+    jobTitle: "Community Manager",
+    responsibilities: [
+      "Managed and elevated the restaurant's online brand through consistent weekly content across Facebook and Instagram.",
+      "Fostered customer loyalty by responding to inquiries and comments, and showcasing new menu items and promotions.",
+      "Designed and produced compelling visual communication materials to highlight the restaurant's unique atmosphere and offerings."
+    ]
+  },
+
+  {
+      company: "Freelance",
+      location: "Antananarivo",
+      date: "2022 - Ongoing",
+      jobTitle: "UX/UI Designer & Web Developer",
+      responsibilities: [
+        "Created comprehensive UX/UI designs for web and mobile platforms using Figma for various clients.",
+        "Analyzed requirements and proposed key features to optimize the design and user experience of applications.",
+        "Contributed to the development of web platforms and community management applications."
+      ]
+},
+
+    {
       company: "JADEVA Sarlu",
       location: "Antananarivo",
       date: "2024",
