@@ -50,7 +50,7 @@ const resumeData = {
   {
       company: "Freelance",
       location: "Antananarivo",
-      date: "2022 - Ongoing",
+      date: "Ongoing",
       jobTitle: "UX/UI Designer & Web Developer",
       responsibilities: [
         "Created comprehensive UX/UI designs for web and mobile platforms using Figma for various clients.",
