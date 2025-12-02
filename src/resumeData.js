@@ -139,7 +139,7 @@ const resumeData = {
       skills: [
         { name: "Frontend Development", tools: ["React", "CSS", "JavaScript"] },
         { name: "Backend Development", tools: ["Node.js", "Express"] },
-        { name: "Data Management", tools: ["MongoDB", "ProtgreSQL"] },
+        { name: "Data Management", tools: ["MongoDB", "PostgreSQL"] },
         { name: "Version Control", tools: ["Git", "GitHub"] },
       ],
     },
